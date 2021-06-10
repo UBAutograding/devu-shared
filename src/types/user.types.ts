@@ -1,3 +1,5 @@
+import { ApiAuth } from './auth.types'
+
 export type User = {
   id?: number
   schoolId?: string
@@ -5,4 +7,9 @@ export type User = {
   createdAt?: string
   updatedAt?: string
   preferredName?: string
+}
+
+export type LoginUser = {
+  user: User
+  auth: ApiAuth
 }
