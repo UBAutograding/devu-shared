@@ -7,3 +7,4 @@ devu-shared-modules/
 *.map.*
 
 ./types
+./utils
