@@ -1,12 +1,15 @@
-export type SchoolAuth = {
+// Request shape when loggin in as a developer (NOT IN PRODUCTION)
+export type DevAuth = {
   email: string
   schoolId: string
 }
 
+// Shape of resposne when requesting JWT
 export type ApiAuth = {
   token: string
 }
 
+// Will be applied to middleware for use in authenticated endpoints
 export type DeserializedRefreshToken = { id: number } & JWTClaims
 export type DeserializedToken = { email: string } & JWTClaims
 
@@ -18,7 +21,8 @@ type JWTClaims = {
   sub: string
 }
 
-export type Provider = {
+// Shape of provider options (when selecting login options)
+export type AuthProvider = {
   name: string
   route: string
   description: string
