@@ -7,14 +7,15 @@ export type ApiAuth = {
   token: string
 }
 
-export type DeserializedRefreshToken = {
-  id: number
-}
+export type DeserializedRefreshToken = { id: number } & JWTClaims
+export type DeserializedToken = { email: string } & JWTClaims
 
-export type DeserializedToken = {
-  iat?: number
-  exp?: number
-  email: string
+type JWTClaims = {
+  iat: number
+  exp: number
+  aud: string[]
+  iss: string
+  sub: string
 }
 
 export type Provider = {
