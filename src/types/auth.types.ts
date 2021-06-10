@@ -5,8 +5,8 @@ export type DevAuth = {
 }
 
 // Shape of resposne when requesting JWT
-export type TokenResponse = {
-  token: string
+export type ApiAuth = {
+  accessToken: string
 }
 
 // Will be applied to middleware for use in authenticated endpoints
