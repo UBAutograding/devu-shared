@@ -5,7 +5,7 @@ export type DevAuth = {
 }
 
 // Shape of resposne when requesting JWT
-export type ApiAuth = {
+export type TokenResponse = {
   accessToken: string
 }
 
