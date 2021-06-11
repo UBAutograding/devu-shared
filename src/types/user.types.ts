@@ -1,4 +1,4 @@
-export type User = {
+export type UserResponse = {
   id?: number
   schoolId?: string
   email: string
