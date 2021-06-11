@@ -1,4 +1,4 @@
-export type UserEnvelope = {
+export type User = {
   id?: number
   schoolId?: string
   email: string
