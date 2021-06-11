@@ -14,11 +14,11 @@ export type DeserializedRefreshToken = { userId: number } & JWTClaims
 export type DeserializedToken = { userId: number; email: string } & JWTClaims
 
 type JWTClaims = {
-  iat: number
-  exp: number
-  aud: string[]
-  iss: string
-  sub: string
+  iat?: number
+  exp?: number
+  aud?: string[]
+  iss?: string
+  sub?: string
 }
 
 // Shape of provider options (when selecting login options)
