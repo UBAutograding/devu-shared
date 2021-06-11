@@ -1,5 +1,5 @@
 // Request shape when loggin in as a developer (NOT IN PRODUCTION)
-export type DevAuth = {
+export type DeveloperAuth = {
   email: string
   schoolId: string
 }
