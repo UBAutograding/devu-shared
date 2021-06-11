@@ -1,7 +1,7 @@
 // Request shape when loggin in as a developer (NOT IN PRODUCTION)
 export type DeveloperAuth = {
   email: string
-  schoolId: string
+  externalId: string
 }
 
 // Shape of resposne when requesting JWT
