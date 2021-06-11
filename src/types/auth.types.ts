@@ -10,8 +10,8 @@ export type TokenResponse = {
 }
 
 // Will be applied to middleware for use in authenticated endpoints
-export type DeserializedRefreshToken = { id: number } & JWTClaims
-export type DeserializedToken = { email: string } & JWTClaims
+export type DeserializedRefreshToken = { userId: number } & JWTClaims
+export type DeserializedToken = { userId: number; email: string } & JWTClaims
 
 type JWTClaims = {
   iat: number
