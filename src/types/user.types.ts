@@ -1,6 +1,6 @@
 export type User = {
   id?: number
-  schoolId?: string
+  externalId?: string
   email: string
   createdAt?: string
   updatedAt?: string
