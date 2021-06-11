@@ -5,7 +5,7 @@ export type DevAuth = {
 }
 
 // Shape of resposne when requesting JWT
-export type TokenResponse = {
+export type TokenEnvelope = {
   accessToken: string
 }
 
@@ -22,7 +22,7 @@ type JWTClaims = {
 }
 
 // Shape of provider options (when selecting login options)
-export type AuthProvider = {
+export type AuthProviderEnvelope = {
   name: string
   route: string
   description: string
