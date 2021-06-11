@@ -1,4 +1,4 @@
-export type UserResponse = {
+export type UserPayload = {
   id?: number
   schoolId?: string
   email: string
