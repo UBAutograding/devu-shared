@@ -20,7 +20,7 @@ export type AuthProvider = {
 
 // Will be applied to middleware for use in authenticated endpoints
 export type AccessToken = { userId: number; email: string } & JWTClaims
-export type RefreshToken = { userId: number } & JWTClaims
+export type RefreshToken = { userId: number; isRefreshToken: true } & JWTClaims
 
 type JWTClaims = {
   iat?: number
