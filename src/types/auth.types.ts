@@ -4,7 +4,7 @@ export type DeveloperAuth = {
   externalId: string
 }
 
-// Shape of resposne when requesting JWT
+// Shape of response when requesting access token
 export type Token = {
   accessToken: string
 }

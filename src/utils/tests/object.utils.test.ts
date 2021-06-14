@@ -1,7 +1,7 @@
 import { renameKeys } from '../object.utils'
 
 const sampleMap = { oldKeyOne: 'newKeyOne', oldKeyTwo: 'newKeyTwo' }
-describe('Objet utils', () => {
+describe('Object utils', () => {
   describe('renameKeys', () => {
     test('Changes keys based on map', () => {
       const oldKeyOne = 'someValue1'
