@@ -1,9 +1,3 @@
-// Request shape when loggin in as a developer (NOT IN PRODUCTION)
-export type DeveloperAuth = {
-  email: string
-  externalId: string
-}
-
 // Shape of response when requesting access token
 export type Token = {
   accessToken: string
