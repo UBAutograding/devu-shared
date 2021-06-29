@@ -1,8 +1,6 @@
-import { User } from './user.types'
-
 export type UserCourse = {
   id?: number
-  userId: User
+  userId: number
   courseId: number
   dropped?: boolean
   level?: string
