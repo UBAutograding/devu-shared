@@ -3,7 +3,7 @@ export type UserCourse = {
   userId: number
   courseId: number
   dropped?: boolean
-  level?: string
+  level?: "student" | "ta" | "instructor"
   lectureSection?: string
   createdAt?: string
   updatedAt?: string
