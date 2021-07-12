@@ -2,9 +2,9 @@ export type Assignment = {
   id?: number
   courseId?: number
   name?: string
-  startDate?: string
-  dueDate?: string
-  endDate?: string
+  startDate?: Date
+  dueDate?: Date
+  endDate?: Date
   gradingType?: string
   categoryName?: string
   description?: string
