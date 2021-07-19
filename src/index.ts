@@ -9,4 +9,3 @@ export * from './types/user-course.types'
 
 export * from './utils/object.utils'
 export * from './utils/string.utils'
-
