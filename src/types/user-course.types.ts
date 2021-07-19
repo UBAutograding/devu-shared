@@ -2,8 +2,8 @@ export type UserCourse = {
   id?: number
   userId: number
   courseId: number
-  dropped?: boolean
-  level?: UserCourseLevel
+  dropped: boolean
+  level: UserCourseLevel
   lectureSection?: string
   createdAt?: string
   updatedAt?: string
