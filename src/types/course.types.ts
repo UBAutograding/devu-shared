@@ -3,8 +3,8 @@ export type Course = {
   name?: string
   semester?: string
   number?: string
-  startDate?: Date
-  endDate?: Date
+  startDate?: string
+  endDate?: string
   createdAt?: string
   updatedAt?: string
 }
