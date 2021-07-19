@@ -28,11 +28,11 @@ export type UserCourse = {
 }
 
 // These roles are to be used by the front end to generate forms with labels for each level
-export type gradingTypeDetail = {
+export type GradingTypeDetail = {
   label: string
   value: string
 }
-export const gradingTypeDetails: gradingTypeDetail[] = [
+export const gradingTypeDetails: GradingTypeDetail[] = [
   { label: 'Autograded - Code', value: 'code' },
   { label: 'Autograded - Not Code', value: 'non-code' },
   { label: 'Manually Graded', value: 'manual' },
