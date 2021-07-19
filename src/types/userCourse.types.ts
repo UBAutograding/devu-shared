@@ -4,7 +4,7 @@ export type UserCourse = {
   courseId: number
   dropped: boolean
   level: UserCourseLevel
-  lectureSection?: string
+  lectureSection: string | null
   createdAt?: string
   updatedAt?: string
 }
