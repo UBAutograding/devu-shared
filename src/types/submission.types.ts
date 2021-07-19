@@ -16,11 +16,6 @@ export type Submission = {
   updatedAt?: string
 }
 
-export type SubmissionTypeDetails = {
-  label: string
-  value: string
-}
-
 export const submissionTypeDetails: SubmissionTypeDetails[] = [
   { label: 'Filepath', value: 'filepath' },
   { label: 'JSON', value: 'json' },
