@@ -9,7 +9,7 @@ export type Submission = {
 
   // submitterId can be different from userId if a submission was created on behalf of the student (regrade)
   // originalSubmissionId is only used on regrades
-  submittedBy: number | null
+  submittedBy?: number
   originalSubmissionId: number | null
 
   createdAt?: string
