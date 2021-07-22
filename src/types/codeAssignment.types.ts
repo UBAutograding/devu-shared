@@ -3,4 +3,6 @@ export type CodeAssignment = {
   assignmentId: number
   grader: string
   gradingImage: string
+  createdAt?: string
+  updatedAt?: string
 }
