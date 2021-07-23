@@ -1,4 +1,4 @@
-export type courseSection = {
+export type CourseSection = {
   id?: number
   sectionId: string
   courseId: number
