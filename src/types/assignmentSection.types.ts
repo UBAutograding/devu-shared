@@ -3,8 +3,8 @@ export type AssignmentSection = {
   assignmentSectionId: number
   assignmentId: number
   sectionId: string
-  startOffset: number
-  endOffset: number
+  startOffset: string
+  endOffset: string
 
   createdAt?: string
   updatedAt?: string
